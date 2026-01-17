@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrada 001 — El inicio</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --panel: #101826;
+      --text: #e6f1ff;
+      --muted: #8aa2c0;
+      --cyan: #00f6ff;
+      --blue: #3aa0ff;
+      --violet: #6b5cff;
+      --glow: 0 0 12px rgba(0,246,255,.35), 0 0 24px rgba(58,160,255,.25);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(1000px 500px at 20% -10%, #12203a 0%, transparent 60%),
+                  radial-gradient(700px 350px at 80% 10%, #062a2a 0%, transparent 55%),
+                  var(--bg);
+      color: var(--text);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    header {
+      padding: 40px 24px 20px;
+      border-bottom: 1px solid rgba(58,160,255,.2);
+      background: linear-gradient(180deg, rgba(16,24,38,.9), rgba(16,24,38,.6));
+    }
+
+    .brand {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--cyan);
+      text-shadow: var(--glow);
+      margin: 0;
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 10px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .back:hover { color: var(--cyan); text-shadow: var(--glow); }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+
+    article {
+      background: linear-gradient(180deg, rgba(16,24,38,.9), rgba(16,24,38,.7));
+      border: 1px solid rgba(58,160,255,.25);
+      border-radius: 14px;
+      padding: 28px;
+    }
+
+    article h1 {
+      margin-top: 0;
+      color: var(--violet);
+      text-shadow: 0 0 10px rgba(107,92,255,.35);
+    }
+
+    article p {
+      line-height: 1.7;
+      font-size: 15px;
+      margin-bottom: 18px;
+      color: #d6e8ff;
+    }
+
+    footer {
+      border-top: 1px solid rgba(58,160,255,.2);
+      padding: 24px;
+      color: var(--muted);
+      text-align: center;
+      background: linear-gradient(180deg, rgba(16,24,38,.6), rgba(16,24,38,.9));
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="brand">Magno0</h1>
+    <a class="back" href="index.html">← Volver al diario</a>
+  </header>
+
+  <main>
+    <div class="meta">Entrada 001 · 15 de enero de 2026</div>
+
+    <article>
+      <h1>El inicio de este diario</h1>
+
+      <p>
+        Hoy empiezo este espacio. No como un proyecto para agradar, ni como algo para vender,
+        sino como un lugar propio. Un sitio donde puedo escribir sin filtros, sin algoritmos y
+        sin expectativas externas.
+      </p>
+
+      <p>
+        Este diario nace porque las redes sociales ya no se sienten como hogar. Todo es rápido,
+        todo es ruido. Aquí quiero ir más lento. Pensar. Construir. Equivocarme. Volver.
+      </p>
+
+      <p>
+        No sé exactamente en qué se va a convertir esto. Tal vez en un archivo de ideas,
+        tal vez en un registro de procesos creativos, tal vez solo en un espejo del momento
+        en el que estoy ahora.
+      </p>
+
+      <p>
+        Si alguien llega a leer esto algún día, bien. Si no, también. Este lugar existe
+        principalmente para mí.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    © Magno0 — Entrada 001
+  </footer>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magno0 — Juegos</title>
+
+<style>
+:root {
+  --bg:#0b0f14;
+  --text:#e6f1ff;
+  --muted:#8aa2c0;
+  --cyan:#00f6ff;
+  --green:#00ff9c;
+  --blue:#3aa0ff;
+  --glow:0 0 12px rgba(0,246,255,.35);
+}
+
+body {
+  margin:0;
+  background:
+    radial-gradient(1000px 500px at 20% -10%, #12203a 0%, transparent 60%),
+    var(--bg);
+  color:var(--text);
+  font-family: monospace;
+}
+
+header {
+  padding:40px 24px 24px;
+  border-bottom:1px solid rgba(58,160,255,.2);
+}
+
+h1 {
+  color:var(--green);
+  text-shadow:0 0 10px rgba(0,255,156,.35);
+}
+
+main {
+  max-width:1000px;
+  margin:auto;
+  padding:32px 24px;
+}
+
+.game {
+  background:rgba(16,24,38,.7);
+  border-left:3px solid var(--green);
+  padding:16px;
+  margin-bottom:16px;
+  border-radius:8px;
+}
+
+.game h3 {
+  margin:0 0 6px 0;
+  color:var(--green);
+}
+
+.game p {
+  margin:0;
+  color:#cfe4ff;
+}
+
+.back {
+  display:inline-block;
+  margin-top:32px;
+  color:var(--cyan);
+  text-decoration:none;
+}
+
+.back:hover {
+  text-shadow:var(--glow);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎮 Mis Juegos</h1>
+  <p style="color:var(--muted)">
+    Juegos que estoy jugando, los que me marcaron y en los que experimento.
+  </p>
+</header>
+
+<main>
+
+  <div class="game">
+    <h3>Assetto Corsa</h3>
+    <p>Simulación, práctica, curvas, errores y aprendizaje real.</p>
+  </div>
+
+  <div class="game">
+    <h3>Dirt Rally 2.0</h3>
+    <p>Control, paciencia, frustración y progreso poco a poco.</p>
+  </div>
+
+  <div class="game">
+    <h3>Ark: Survival Ascended</h3>
+    <p>Desde cero, supervivencia y caos controlado.</p>
+  </div>
+
+  <!-- Aquí irás agregando más juegos -->
+
+  <a href="index.html" class="back">← Volver al inicio</a>
+
+</main>
+
+</body>
+</html>

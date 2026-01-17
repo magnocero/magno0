@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magno0 — IA</title>
+
+<style>
+:root {
+  --bg:#0b0f14;
+  --panel:#101826;
+  --text:#e6f1ff;
+  --muted:#8aa2c0;
+  --cyan:#00f6ff;
+  --blue:#3aa0ff;
+  --glow:0 0 12px rgba(0,246,255,.35);
+}
+
+body {
+  margin:0;
+  background:
+    radial-gradient(1000px 500px at 20% -10%, #12203a 0%, transparent 60%),
+    var(--bg);
+  color:var(--text);
+  font-family: monospace;
+}
+
+header {
+  padding:40px 24px 24px;
+  border-bottom:1px solid rgba(58,160,255,.2);
+}
+
+h1 {
+  color:var(--cyan);
+  text-shadow:var(--glow);
+  margin-bottom:8px;
+}
+
+.subtitle {
+  color:var(--muted);
+  max-width:800px;
+}
+
+main {
+  max-width:1000px;
+  margin:auto;
+  padding:32px 24px 64px;
+}
+
+.tool {
+  background:rgba(16,24,38,.75);
+  border-left:3px solid var(--cyan);
+  padding:16px;
+  margin-bottom:14px;
+  border-radius:8px;
+}
+
+.tool h3 {
+  margin:0 0 6px 0;
+  color:var(--cyan);
+}
+
+.tool p {
+  margin:0;
+  color:#cfe4ff;
+}
+
+.back {
+  display:inline-block;
+  margin-top:40px;
+  color:var(--cyan);
+  text-decoration:none;
+}
+
+.back:hover {
+  text-shadow:var(--glow);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🤖 IA</h1>
+  <p class="subtitle">
+    Programas, ideas, pruebas y experimentos con inteligencia artificial.
+    Sin promesas mágicas. Solo curiosidad y código.
+  </p>
+</header>
+
+<main>
+
+  <div class="tool">
+    <h3>Generador de entradas del diario</h3>
+    <p>Script en Python que crea entradas HTML automáticamente.</p>
+  </div>
+
+  <div class="tool">
+    <h3>Herramientas locales</h3>
+    <p>Programas que corren en mi PC, sin nube, sin cuentas.</p>
+  </div>
+
+  <!-- Aquí irán más programas -->
+
+  <a href="index.html" class="back">← Volver al inicio</a>
+
+</main>
+
+</body>
+</html>
